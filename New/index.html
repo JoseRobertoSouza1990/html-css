@@ -8,75 +8,67 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Gerenciador</h1>
-<nav>
-<div class="dropdown">
-    <button class="dropbtn" onclick="toggleDropdown('dropdown1')">Consumidor</button>
-    <div id="dropdown1" class="dropdown-content">
-        <a href="#option1">Opção 1</a>
-        <a href="#option2">Opção 2</a>
-        <a href="#option3">Opção 3</a>
-    </div>
-</div>
+    <header>
+        <h1>Gerenciador</h1>
+    </header>
+    <main>
+        <nav>
+            <div class="dropdown" onmouseleave="closeDropdown('dropdown1')">
+                <button class="dropbtn" onclick="toggleDropdown('dropdown1')">Consumidor</button>
+                <div id="dropdown1" class="dropdown-content">
+                    <a href="#option1">Consulta</a>
+                    <a href="#option2">Consumidor</a>
+                    <a href="#option3">Cadastro</a>
+                </div>
+            </div>
 
-<div class="dropdown">
-    <button class="dropbtn" onclick="toggleDropdown('dropdown2')">Fornecedor</button>
-    <div id="dropdown2" class="dropdown-content">
-        <a href="#option1">Opção 1</a>
-        <a href="#option2">Opção 2</a>
-        <a href="#option3">Opção 3</a>
-    </div>
-</div>
+            <div class="dropdown" onmouseleave="closeDropdown('dropdown2')">
+                <button class="dropbtn" onclick="toggleDropdown('dropdown2')">Fornecedor</button>
+                <div id="dropdown2" class="dropdown-content">
+                    <a href="#option1">Consulta</a>
+                    <a href="#option2">Cadastro</a>
+                    <a href="#option3">Entrada</a>
+                </div>
+            </div>
 
-<div class="dropdown">
-    <button class="dropbtn" onclick="toggleDropdown('dropdown3')">Financeiro</button>
-    <div id="dropdown3" class="dropdown-content">
-        <a href="#option1">Opção 1</a>
-        <a href="#option2">Opção 2</a>
-        <a href="#option3">Opção 3</a>
-    </div>
-</div>
+            <div class="dropdown" onmouseleave="closeDropdown('dropdown3')">
+                <button class="dropbtn" onclick="toggleDropdown('dropdown3')">Financeiro</button>
+                <div id="dropdown3" class="dropdown-content">
+                    <a href="#option1">Consulta</a>
+                    <a href="#option2">Duplicatas</a>
+                    <a href="#option3">Contas a Pagar</a>
+                </div>
+            </div>
 
-<div class="dropdown">
-    <button class="dropbtn" onclick="toggleDropdown('dropdown4')">Produtos</button>
-    <div id="dropdown4" class="dropdown-content">
-        <a href="#option1">Opção 1</a>
-        <a href="#option2">Opção 2</a>
-        <a href="#option3">Opção 3</a>
-    </div>
-</div>
+            <div class="dropdown" onmouseleave="closeDropdown('dropdown4')">
+                <button class="dropbtn" onclick="toggleDropdown('dropdown4')">Produtos</button>
+                <div id="dropdown4" class="dropdown-content">
+                    <a href="#option1">Cadastro</a>
+                    <a href="#option2">Consulta</a>
+                    <a href="#option3">Estoque</a>
+                </div>
+            </div>
 
-<div class="dropdown">
-    <button class="dropbtn" onclick="toggleDropdown('dropdown5')">Estoque</button>
-    <div id="dropdown5" class="dropdown-content">
-        <a href="#option1">Opção 1</a>
-        <a href="#option2">Opção 2</a>
-        <a href="#option3">Opção 3</a>
-    </div>
-</div>
+            <div class="dropdown" onmouseleave="closeDropdown('dropdown5')">
+                <button class="dropbtn" onclick="toggleDropdown('dropdown5')">Estoque</button>
+                <div id="dropdown5" class="dropdown-content">
+                    <a href="#option1">Opção 1</a>
+                    <a href="#option2">Opção 2</a>
+                    <a href="#option3">Opção 3</a>
+                </div>
+            </div>
 
-<div class="dropdown">
-    <button class="dropbtn" onclick="toggleDropdown('dropdown6')">Fiscal</button>
-    <div id="dropdown6" class="dropdown-content">
-        <a href="#option1">Opção 1</a>
-        <a href="#option2">Opção 2</a>
-        <a href="#option3">Opção 3</a>
-    </div>
-</div>
-</nav>
-<div>$</div>
-<div>$</div>
-<div>$</div>
-<div>$</div>
-<div>$</div>
-<div>$</div>
-<div>$</div>
-
-<footer>
-    Desenvolvido por JJ parceria e negócios
-</footer>
-
-<script src="script.js"></script>
+            <div class="dropdown" onmouseleave="closeDropdown('dropdown6')">
+                <button class="dropbtn" onclick="toggleDropdown('dropdown6')">Fiscal</button>
+                <div id="dropdown6" class="dropdown-content">
+                    <a href="#option1">Opção 1</a>
+                    <a href="#option2">Opção 2</a>
+                    <a href="#option3">Opção 3</a>
+                </div>
+            </div>
+        </nav>
+    </main>
+    
+    <script src="script.js"></script>
 </body>
-
 </html>
